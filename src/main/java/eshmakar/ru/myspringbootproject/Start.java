@@ -1,11 +1,11 @@
 package eshmakar.ru.myspringbootproject;
 
-class Start {
+public class Start {
 
-    static final char dm = (char) 34;
-    static final String blank = "_blank";
-    static final String URL = "localhost:8080/";
-    static final String glavnayaStranica = "<p><a href=" + dm + "localhost:8080/" + dm + " target=" + dm + blank + dm + ">" + "На главную" + "</a></p>";
+    public static final char dm = (char) 34;
+    public  static final String blank = "_blank";
+    public  static final String URL = "localhost:8080/";
+    public static final String glavnayaStranica = "<p><a href=" + dm + "localhost:8080/" + dm + " target=" + dm + blank + dm + ">" + "На главную" + "</a></p>";
 
     StringBuilder sbb() {
         StringBuilder sb = new StringBuilder();
