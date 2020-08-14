@@ -7,7 +7,7 @@ public class Rand {
     public String randd() {
         int leftLimit = 97; // letter 'a'
         int rightLimit = 122; // letter 'z'
-        int targetStringLength = 4; //длина текста
+        int targetStringLength = 3; //кол-во букв в сайте
         Random random = new Random();
         StringBuilder buffer = new StringBuilder(targetStringLength);
 
